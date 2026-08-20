@@ -1,0 +1,36 @@
+WARNING:openfold3.entry_points.experiment_runner:No version_tensor is found for this checkpoint.Assuming the user knows checkpoints are parameters are compatible, continuing...
+/workspace/openfold3/venv/lib/python3.12/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 /workspace/openfold3/venv/bin/run_openfold predict  ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+WARNING:openfold3.core.data.tools.colabfold_msa_server:Using output directory: /tmp/of3-of-root/msa-root-20260816T073751794976Z-1ef82cfc for ColabFold MSAs.
+Submitting 1 sequences to the Colabfold MSA server for main MSAs...
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+/usr/lib/python3.12/tarfile.py:2274: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  warnings.warn(
+No complexes found for paired MSA generation. Skipping...
+/usr/lib/python3.12/multiprocessing/popen_fork.py:66: DeprecationWarning: This process (pid=13584) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  self.pid = os.fork()
+Preprocessing templates:   0%|          | 0/1 [00:00<?, ?it/s]Preprocessing templates: 100%|██████████| 1/1 [00:00<00:00, 90.60it/s]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+/workspace/openfold3/venv/lib/python3.12/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting: |          | 0/? [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Seed set to 2746317213
+/workspace/openfold3/venv/lib/python3.12/site-packages/biotite/structure/io/pdbx/convert.py:1024: DeprecationWarning: `include_bonds` parameter is deprecated, intra-residue are always written, if available
+  warnings.warn(
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:23<00:00,  0.04it/s]
+==================================================
+    PREDICTION SUMMARY (COMPLETE)    
+==================================================
+Total Queries Processed: 1
+  - Successful Queries:  1
+  - Failed Queries:      0
+==================================================
+
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:23<00:00,  0.04it/s]
+Removing empty log directory...
+
+real	6m55.457s
+user	74m0.503s
+sys	0m26.189s
+EXIT_CODE:0
