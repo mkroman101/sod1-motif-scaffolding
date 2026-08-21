@@ -71,7 +71,7 @@ provenance.
 
 - **AME-benchmark calibration subset** — future calibration work per the manuscript's Discussion; not required for the present conclusions
 - **Conditioning-ablation experiment** (full-residue-frame vs. minimal-atom fixing on RFdiffusion3) — future work, specified in the accompanying research plan
-- **GitHub repository URL, Zenodo DOI, ModelArchive accession** — the manuscript's Data and Code Availability section still marks these [PENDING]
+- **Zenodo DOI, ModelArchive accession** — the manuscript's Data and Code Availability section still marks these [PENDING] (the GitHub repository URL has been filled in: https://github.com/mkroman101/sod1-motif-scaffolding)
 
 ## Deposition pathway
 
