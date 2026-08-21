@@ -1,5 +1,13 @@
 # Motif Scaffolding of a Disease-Relevant Zinc-Binding Site with RFdiffusion3 on Consumer-Scale Compute: A Reproducible Pipeline and Negative-to-Positive Case Study
 
+**⚠️ SUPERSEDED (2026-08-20).** This working draft is kept for provenance
+only. The current manuscript is `paper/manuscript_final.docx`
+(plain-text extraction: `paper/manuscript_final.md`) — it includes the
+completed same-validator cross-check (Experiment 2), a corrected Table
+3.3-2, and a restructured/streamlined Methods and Discussion. Do not cite
+or read this file as current; content below reflects the pre-Experiment-2
+state of the project.
+
 **Status: DRAFT — RFdiffusion3 results (Sections 2.3, 3.3, Discussion) completed 2026-08-17. Remaining [PENDING] sections require the AME calibration subset (Section 2.4b/3.4) only. Pipeline updated from an earlier RFdiffusion2-based plan after RFdiffusion3's release (Baker Lab/IPD, bioRxiv Sept 2025) — see revision note below.**
 
 ## Revision note (kept for transparency, remove before final submission)

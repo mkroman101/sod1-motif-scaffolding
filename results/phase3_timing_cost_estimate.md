@@ -5,6 +5,14 @@ this handoff (install/verify/calibrate for RFdiffusion3, LigandMPNN,
 OpenFold3-preview), not vendor-quoted or estimated numbers, except where
 explicitly marked "extrapolated."
 
+**Update (2026-08-20):** the "target workload" this document estimates a
+budget for has since been run in full — see
+`results/sod1_zn_pilot_rfdiffusion3_summary.md` and
+`results/sod1_zn_rfdiffusion1_openfold3preview_crosscheck.md`. The
+estimate below is kept as-written, for the record of what was planned
+against real pre-experiment cost data, not updated with actual final
+cost/timing.
+
 ## Real per-tool data, at the project's ~150aa target scale
 
 ### RFdiffusion3 — local, RTX 3070, $0

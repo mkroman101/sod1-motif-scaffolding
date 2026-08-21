@@ -82,7 +82,16 @@ columns).
 | Mean self-consistency RMSD | 14.25 Å | 3.80 Å |
 | sc_rmsd < 2 Å alone | 4/80 (5%) | 100/160 (63%) |
 | Best motif max-deviation | 2.102 Å | 1.649 Å |
-| Strict pass (both criteria) | 4/80 (5%) | 0/160 |
+| Strict pass (both criteria) | 0/80 † | 0/160 |
+
+† Corrected from an earlier version of this table, which mislabeled the
+sc_rmsd-alone count (4/80) as the strict combined pass figure. No
+RFdiffusion1 sequence's motif deviation goes below 2.102 Å (see row
+above), so none can satisfy the <0.5 Å strict bar; the correct value is
+0/80, consistent with `sod1_zn_pilot_rfdiffusion1_summary.md`'s "0/10
+backbones designable by the strict bar." See also
+`sod1_zn_rfdiffusion1_openfold3preview_crosscheck.md`, which flagged the
+same underlying inconsistency.
 
 ## Interpretation — decisive, not ambiguous
 This comparison is **decisive** on the question of scaffold

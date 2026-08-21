@@ -176,11 +176,16 @@ working (`torch.cuda.is_available() == True`, correctly identifies
     estimated ~1.2 hours. This is the single most important operational
     finding from this handoff for cost control.
 
-## Next planned addition
-None outstanding for tool installation — all three new tools (RFdiffusion3,
-LigandMPNN, OpenFold3-preview) are now installed and verified. Next actual
-step is the real n=10 RFdiffusion3 vs. RFdiffusion1 comparison experiment
-itself (separate, explicit go-ahead required — not part of this handoff).
+## Status (updated 2026-08-20)
+All tool installation is complete, and the experiments this environment
+was built for have since been run: the n=10 RFdiffusion3-vs-RFdiffusion1
+comparison (`results/sod1_zn_pilot_rfdiffusion3_summary.md`) and the
+same-validator cross-check (Experiment 2,
+`results/sod1_zn_rfdiffusion1_openfold3preview_crosscheck.md`), both
+using this OpenFold3-preview setup. See `paper/manuscript_final.docx`
+for the current manuscript. Remaining future work (AME-benchmark
+calibration subset, conditioning-ablation experiment) is described in
+the manuscript's Discussion (Sections 4.2) rather than tracked here.
 
 ## Real environment exports
 
