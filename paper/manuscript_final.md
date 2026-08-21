@@ -136,6 +136,7 @@ Final structure coordinates: ModelArchive, accession [PENDING]
 Watson, J.L. et al. De novo design of protein structure and function with RFdiffusion. Nature 620, 1089–1100 (2023).
 Ahern, W., Yim, J., Tischer, D., Salike, S., Woodbury, S.M., Kim, D., Kalvet, I., Kipnis, Y., Coventry, B., Altae-Tran, H.R., Bauer, M.S., Barzilay, R., Jaakkola, T.S., Krishna, R. & Baker, D. Atom-level enzyme active site scaffolding using RFdiffusion2. Nature Methods 23, 96–105 (2026). DOI: 10.1038/s41592-025-02975-x
 Butcher, J., Krishna, R., Mitra, R., Brent, R.I., Li, Y., Corley, N., Kim, P.T., Funk, J., Mathis, S., Salike, S., Muraishi, A., Eisenach, H., Thompson, T.R., Chen, J., Politanska, Y., Sehgal, E., Coventry, B., Zhang, O., Qiang, B., Didi, K., Kazman, M., DiMaio, F. & Baker, D. De novo Design of All-atom Biomolecular Interactions with RFdiffusion3. bioRxiv 2025.09.18.676967 (2025). DOI: 10.1101/2025.09.18.676967. [Preprint.]
+Dauparas, J., Lee, G.R., Pecoraro, R., An, L., Anishchenko, I., Glasscock, C. & Baker, D. Atomic context-conditioned protein sequence design using LigandMPNN. Nature Methods 22, 717–723 (2025). DOI: 10.1038/s41592-025-02626-1.
 AlQuraishi Lab, Columbia University & OpenFold Consortium. OpenFold3-preview [Software]. https://github.com/aqlaboratory/openfold-3. Checkpoint of3-p2-155k.pt, accessed 2026-08-16.
 [1SOS — PDB structure citation, to be formatted per journal style]
 Divakaruni, A., Bares, F. & Phalippou, L. AI-qualizing Science. bioRxiv 2025.02.11.637417 (2025). DOI: 10.1101/2025.02.11.637417.
