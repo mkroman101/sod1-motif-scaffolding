@@ -24,9 +24,11 @@ marked accordingly throughout this archive:
   subset and the conditioning-ablation experiment (full-residue-frame
   vs. minimal-atom fixing), both explicitly future work per the
   manuscript's Discussion (Section 4.2) — not required for the
-  manuscript's present conclusions. Also still pending: GitHub
-  repository URL (this repo), Zenodo DOI, and ModelArchive accession —
-  not yet requested/deposited.
+  manuscript's present conclusions. Also still pending: **Figure 1**
+  (a pipeline DAG figure has no source diagram anywhere in this repo
+  and is not yet built or embedded in the manuscript). The GitHub
+  repository URL, Zenodo DOI, and ModelArchive accession have all now
+  been filled in (see Data and Code Availability in the manuscript).
 
 **One confirmed correction, disclosed rather than silently fixed:**
 `results/sod1_zn_pilot_rfdiffusion3_summary.md`'s "RFdiffusion1 vs.
@@ -71,7 +73,12 @@ provenance.
 
 - **AME-benchmark calibration subset** — future calibration work per the manuscript's Discussion; not required for the present conclusions
 - **Conditioning-ablation experiment** (full-residue-frame vs. minimal-atom fixing on RFdiffusion3) — future work, specified in the accompanying research plan
-- **ModelArchive accession** — the manuscript's Data and Code Availability section still marks this [PENDING] (the GitHub repository URL and Zenodo DOI have both been filled in: https://github.com/mkroman101/sod1-motif-scaffolding, DOI 10.5281/zenodo.22038707)
+- **Figure 1** (pipeline DAG) — no source diagram exists anywhere in this repo; not yet designed, drawn, or embedded in the manuscript
+
+All three Data and Code Availability items are now filled in: GitHub
+(https://github.com/mkroman101/sod1-motif-scaffolding), Zenodo (DOI
+10.5281/zenodo.22038707), and ModelArchive (accession 10.5452/ma-qc96a,
+DOI pending publication per ModelArchive's standard policy).
 
 ## Deposition pathway
 
