@@ -128,7 +128,7 @@ A same-validator cross-check of RFdiffusion1 and RFdiffusion3 designs (Section 2
 ## Data and Code Availability
 
 Code and analysis scripts: https://github.com/mkroman101/sod1-motif-scaffolding
-Versioned reproducibility archive (code, environment files, full result tables): Zenodo, DOI [PENDING]
+Versioned reproducibility archive (code, environment files, full result tables): Zenodo, DOI 10.5281/zenodo.22038707
 Final structure coordinates: ModelArchive, accession [PENDING]
 
 ## References
